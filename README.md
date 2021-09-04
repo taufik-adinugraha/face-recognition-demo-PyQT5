@@ -8,7 +8,9 @@ Dependencies
 ========================
 python 3.6
 
+```
 pip install -r requirements.txt
+```
 
 Executing program
 ========================
