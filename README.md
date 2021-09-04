@@ -1,20 +1,17 @@
-# Project Title
+
 Facial Recognition Demo
-
-
-## Description
+========================
 facial recognition program with PyQT5 GUI.
 
-## Getting Started
 
-### Dependencies
+Dependencies
+========================
 python 3.6
 
-### Installing
 pip install -r requirements.txt
 
-### Executing program
-
+Executing program
+========================
 ```
 cd codes
 python main.py
@@ -30,3 +27,7 @@ into
 ```
 M = cv2.getRotationMatrix2D([int(i) for i in eyesCenter], angle, scale)
 ```
+
+Video Demo
+========================
+https://github.com/taufik-adinugraha/face-recognition-demo-PyQT5/blob/main/demo_video.mp4
