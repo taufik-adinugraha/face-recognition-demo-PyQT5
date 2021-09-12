@@ -6,7 +6,7 @@ facial recognition program with PyQT5 GUI.
 
 Dependencies
 ========================
-python 3.6
+python 3.6, cmake
 
 ```
 pip install -r requirements.txt
