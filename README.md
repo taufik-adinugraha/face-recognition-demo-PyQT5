@@ -1,25 +1,22 @@
 
-Facial Recognition Demo
-========================
+## Facial Recognition Demo
 facial recognition program with PyQT5 GUI.
 
 
-Dependencies
-========================
+## Dependencies
 python 3.6, cmake
 
 ```
 pip install -r requirements.txt
 ```
 
-Executing program
-========================
+## Executing program
 ```
 cd codes
 python main.py
 ```
 
-it might be necessary to modify facealigner.py from dlib library:
+it might be necessary to modify the following line in *facealigner.py* in dlib library:
 
 from
 ```
@@ -30,6 +27,5 @@ into
 M = cv2.getRotationMatrix2D([int(i) for i in eyesCenter], angle, scale)
 ```
 
-Video Demo
-========================
-https://github.com/taufik-adinugraha/face-recognition-demo-PyQT5/blob/main/demo_video.mp4
+## Video Demo
+[demo](https://github.com/taufik-adinugraha/face-recognition-demo-PyQT5/blob/main/demo_video.mp4)
